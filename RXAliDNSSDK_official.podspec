@@ -33,11 +33,15 @@ TODO: Add long description of the pod here.
    #s.source_files = '*.framework/Headers/*.{h,m,plist}'
       #s.source_files = '*.framework'
   
-   s.vendored_frameworks = '*.xcframework'
+  s.vendored_frameworks = '*.xcframework'
   
   # s.resource_bundles = {
   #   'RXSDK' => ['RXSDK/Assets/*.png']
   # }
+  
+  
+  s.frameworks = 'CoreTelephony', 'SystemConfiguration'
+  s.libraries = 'sqlite3.0', 'resolv'
   
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   
