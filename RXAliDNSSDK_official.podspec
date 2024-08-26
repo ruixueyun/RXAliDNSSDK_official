@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RXAliDNSSDK_official'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'ruixue RXAliDNSSDK_official framework.'
 
 # This description is used to generate tags and improve searc results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
    #s.source_files = '*.framework/Headers/*.{h,m,plist}'
       #s.source_files = '*.framework'
   
-   s.vendored_frameworks = '*.framework'
+   s.vendored_frameworks = '*.xcframework'
   
   # s.resource_bundles = {
   #   'RXSDK' => ['RXSDK/Assets/*.png']
